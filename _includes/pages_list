@@ -1,0 +1,13 @@
+{% assign pages_list2 = pages_list | sort:"weight" %}
+{% for node in pages_list2 %}
+  {% if group == null or group == node.group %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign pages_list2 = nil %}
+{% assign group = nil %}

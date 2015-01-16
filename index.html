@@ -1,0 +1,23 @@
+---
+title: Startseite
+group: navigation
+weight: 1
+---
+<div class="jumbotron indextron">
+<h1><span>gentoo.de</span></h1>
+<h2><span>Das deutschsprachige Gentoo-Portal</span></h2>
+</div>
+
+<p class="lead">
+  Gentoo Linux ist eine quellbasierte Distribution für den erfahrenen Linux-User.
+  Sie eignet sich hervorragend für alle, die maximale Kontrolle über ihr System erhalten wollen.
+  Man kann mit Gentoo alles machen &ndash; vom Server bis zum Desktop-System, vom Cluster bis zur einfachen Boot-CD.
+</p>
+
+<h1>News</h1>
+
+{% for post in site.posts %}
+  <h2>{{ post.title }} <small>&mdash; {{ post.date | date: '%d.%m.%Y' }}</small></h2>
+    {{ post.content }}
+    <hr>
+{% endfor %}

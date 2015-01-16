@@ -1,0 +1,9 @@
+---
+layout: tyrian
+---
+<div class="jumbotron">
+  {% if page.boxicon %}<i class="{{ page.boxicon }}" style="color:#ccc;float:right;font-size:100pt;" id="box-icon"></i>{% endif %}
+  <h1 id="box-title">{{ page.boxtitle }}</h1>
+
+  {{ content }}
+</div>

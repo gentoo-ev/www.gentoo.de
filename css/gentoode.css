@@ -1,0 +1,36 @@
+.indextron {
+	background: url(../img/bg.png);
+	height: 341px;
+	color: white;
+	cursor: default;
+}
+
+.indextron h1 {
+	text-shadow: 2px 2px #54487a;
+	margin-top: 120px;
+}
+
+.indextron h1 span {
+	background-color: rgba(84, 72, 122, 0.8);
+	padding: .1em;
+	border-radius: 4px;
+}
+
+.indextron h2 {
+	text-shadow: 1px 1px black;
+}
+
+.indextron h2 span {
+	background-color: rgba(84, 72, 122, 0.8);
+	padding: .2em;
+	line-height: 2em;
+	border-radius: 4px;
+}
+
+.sponsors a:link {
+	border: none;
+}
+
+.sponsors img {
+	margin-right: 3em;
+}
