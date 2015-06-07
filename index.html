@@ -3,21 +3,33 @@ title: Startseite
 group: navigation
 weight: 1
 ---
-<div class="jumbotron indextron">
-<h1><span>gentoo.de</span></h1>
-<h2><span>Das deutschsprachige Gentoo-Portal</span></h2>
+{% include hero-section/start class="emergehdr" %}
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-md-9">
+    <p>
+      Willkommen auf <strong>gentoo.de,</strong> dem deutschsprachigen Portal zur Linux-Distribution Gentoo.
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-3 buttons">
+    <br>
+    <a href="dokumentation/#handbuch" class="btn btn-primary btn-block"><i class="fa fa-fw fa-rocket"></i> Los geht's</a>
+  </div>
 </div>
+{% include hero-section/end %}
+
+<br>
 
 <p class="lead">
   Gentoo Linux ist eine quellbasierte Distribution für erfahrene Linux-User.
   Sie eignet sich hervorragend für alle, die maximale Kontrolle über ihr System erhalten wollen.
-  Mit Gentoo ist alles m&ouml;glich &ndash; vom Server bis zum Desktop-System, vom Cluster bis zur einfachen Boot-CD.
+  Mit Gentoo ist alles möglich &ndash; vom Server bis zum Desktop-System, vom Cluster bis zur einfachen Boot-CD.
 </p>
 
-<h1>News</h1>
+<hr>
+
+<h2>News</h2>
 
 {% for post in site.posts %}
-  <h2>{{ post.title }} <small>&mdash; {{ post.date | date: '%d.%m.%Y' }}</small></h2>
+  <h3>{{ post.title }} <small>&mdash; {{ post.date | date: '%d.%m.%Y' }}</small></h3>
     {{ post.content }}
-    <hr>
 {% endfor %}

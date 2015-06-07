@@ -1,30 +1,64 @@
-.indextron {
-	background: url(../img/bg.png);
-	height: 341px;
-	color: white;
-	cursor: default;
+.hero-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  font-size: 120%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.indextron h1 {
-	text-shadow: 2px 2px #54487a;
-	margin-top: 120px;
+@media (min-width: 768px) {
+  .hero-section {
+    font-size: 150%;
+  }
+
+  .hero-section h2 {
+    font-size: 130%;
+  }
 }
 
-.indextron h1 span {
-	background-color: rgba(84, 72, 122, 0.8);
-	padding: .1em;
-	border-radius: 4px;
+.get-started-livecd {
+  color: black;
+  background-color: #B0BEC5;
 }
 
-.indextron h2 {
-	text-shadow: 1px 1px black;
+.get-started-handbook {
+  color: black;
+  background-color: #90A4AE;
+  margin-top: -1px;
 }
 
-.indextron h2 span {
-	background-color: rgba(84, 72, 122, 0.8);
-	padding: .2em;
-	line-height: 2em;
-	border-radius: 4px;
+.get-started-go {
+  color: white;
+  background-color: #54487a;
+  margin-top: -1px;
+}
+
+.emergehdr {
+  margin-top: -21px;
+  background-color: #54487a;
+  background-image: url('/img/emerge.jpg');
+  cursor: default;
+  min-height: 0;
+  box-shadow: 0px 0px 5px #333;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media (min-width: 992px) {
+  .emergehdr {
+    font-size: 1.95em;
+  }
+}
+
+.emergehdr p {
+  text-shadow: 0px 0px 5px black;
+  color: white;
+  margin: 0;
+}
+
+.emergehdr .buttons {
+  margin-top: 3px;
 }
 
 .sponsors a:link {
