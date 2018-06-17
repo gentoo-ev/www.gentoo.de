@@ -1,0 +1,17 @@
+# Copyright (C) 2018 Sebastian Pipping <sebastian@pipping.org>
+# Licensed under the MIT license
+
+version: "3"
+
+networks:
+  ssl-reverse-proxy:
+    external: yes
+
+services:
+  gentoo-de:
+    build: .
+    ports:
+      - 127.0.0.1:50280:80
+    networks:
+      - default
+      - ssl-reverse-proxy
