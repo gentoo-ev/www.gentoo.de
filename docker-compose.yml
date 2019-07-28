@@ -15,3 +15,4 @@ services:
     networks:
       - default
       - ssl-reverse-proxy
+    restart: unless-stopped
