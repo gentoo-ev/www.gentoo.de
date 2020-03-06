@@ -12,6 +12,6 @@ defaults:
       layout: "tyrian"
 
 # No slash at the end
-cdnurl: https://assets.gentoo.org
+cdnurl: https://assets.gentoo.org/tyrian
 contact: https://www.gentoo.org/main/en/contact.xml
 copyrightyears: "2001&ndash;2020"
