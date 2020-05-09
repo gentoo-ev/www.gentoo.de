@@ -1,4 +1,5 @@
 .hero-section {
+  flex-shrink: 0;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 200px;
@@ -67,4 +68,9 @@
 
 .sponsors img {
 	margin-right: 3em;
+}
+
+/* for backwards compatibility */
+.lead {
+    font-size: 21px;
 }
