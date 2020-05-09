@@ -1,37 +1,32 @@
 <header>
   <div class="site-title">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-between">
+        <div class="logo">
+          <img src="/img/site-logo.png" data-at2x="/img/site-logo@2x.png" alt="Gentoo Linux Logo"/>
+          {% if page.sitelabel %}<span class="site-label">{{ page.sitelabel }}</span>{% endif %}
+        </div>
         <div class="site-title-buttons">
           <div class="btn-group btn-group-sm">
             <a href="https://shop.spreadshirt.de/22258/" role="button" class="btn get-gentoo"><span class="fa fa-shopping-cart"></span> <strong>Gentoo Shop</strong></a>
           </div>
         </div>
-        <div class="logo">
-          <img src="/img/site-logo.png" data-at2x="/img/site-logo@2x.png" alt="Gentoo Linux Logo"/>
-          {% if page.sitelabel %}<span class="site-label">{{ page.sitelabel }}</span>{% endif %}
-        </div>
       </div>
     </div>
   </div>
-  <nav class="tyrian-navbar" role="navigation">
+  <nav class="tyrian-navbar navbar navbar-dark navbar-expand-lg bg-primary" role="navigation">
     <div class="container">
-      <div class="row">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include pages_list %}
-          </ul>
-        </div>
+      <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
+        <ul class="navbar-nav mr-auto">
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include pages_list %}
+        </ul>
       </div>
     </div>
   </nav>
