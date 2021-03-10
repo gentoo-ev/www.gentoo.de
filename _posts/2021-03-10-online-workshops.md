@@ -3,9 +3,9 @@ title: Online-Workshops 2021
 author: Ulrich Müller
 ---
 
-Der Förderverein Gentoo e.V. organisiert im Jahr 2021 eine Reihe
-von Online-Workshops mit Vorträgen. Sie werden über BigBlueButton
-als Konferenzsystem stattfinden.
+Der [Förderverein Gentoo e.V.](https://gentoo-ev.org/) organisiert
+im Jahr 2021 eine Reihe von Online-Workshops mit Vorträgen.
+Sie werden über BigBlueButton als Konferenzsystem stattfinden.
 
 Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
