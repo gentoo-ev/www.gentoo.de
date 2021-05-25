@@ -21,6 +21,10 @@ Als Termine stehen bisher fest:
   Ebuilds, Paketmanager, und wie sie interagieren  
   <https://bbb.gentoo-ev.org/>
 
+- **Samstag, 2021-07-17 um 20:00 Uhr**  
+  Bernd Waibel: *Developer-Tools zur Ebuild-Pflege*  
+  <https://bbb.gentoo-ev.org/>
+
 Themenangebote bitte an Jonas Stein <jstein@gentoo.org> schicken.
 
 Wir danken dem [CCC Cologne e.V.](https://koeln.ccc.de/) für das
