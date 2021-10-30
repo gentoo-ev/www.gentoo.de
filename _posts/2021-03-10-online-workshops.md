@@ -30,7 +30,7 @@ Als Termine stehen bisher fest:
   <https://bbb.gentoo-ev.org/>
 
 - **Samstag, 2021-11-20 um 20:00 Uhr MEZ**  
-  N.N.: *Updatestrategie, Ebuild-Konflikte lösen*  
+  Martin Dummer (und alle): *Updatestrategie, Ebuild-Konflikte lösen*  
   <https://bbb.gentoo-ev.org/>
 
 Themenangebote bitte an Jonas Stein <jstein@gentoo.org> schicken.
