@@ -16,7 +16,7 @@ Als Termine stehen bisher fest:
   Simon-Nassim Kanoun: *Verteiltes Kompilieren mit icecc*  
   <https://bbb.gentoo-ev.org/>
 
-- **Saturday, 2022-02-19 at 19:00 UTC (20:00 CET)**  
+- **Saturday, 2022-04-16 at 18:00 UTC (20:00 CEST)**  
   Simon-Nassim Kanoun: *Distributed compiling with icecc* (in English)  
   <https://bbb.gentoo-ev.org/>
 
