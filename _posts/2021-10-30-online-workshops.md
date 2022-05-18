@@ -12,6 +12,14 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Saturday, 2022-06-18 at 18:00 UTC (20:00 CEST)**  
+  All: *Pair programming of ebuilds* (in English)  
+  <https://bbb.gentoo-ev.org/>
+
+- **Samstag, 2022-05-21 um 20:00 MESZ**  
+  Alle: *CPE in metadata.xml*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Saturday, 2022-04-16 at 18:00 UTC (20:00 CEST)**  
   Simon-Nassim Kanoun: *Distributed compiling with icecc* (in English)  
   <https://bbb.gentoo-ev.org/>
