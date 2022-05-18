@@ -12,16 +12,16 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
-- **Samstag, 2022-01-15 um 20:00 Uhr MEZ**  
-  Simon-Nassim Kanoun: *Verteiltes Kompilieren mit icecc*  
+- **Saturday, 2022-04-16 at 18:00 UTC (20:00 CEST)**  
+  Simon-Nassim Kanoun: *Distributed compiling with icecc* (in English)  
   <https://bbb.gentoo-ev.org/>
 
 - **Samstag, 2022-03-19 um 20:00 Uhr MEZ**  
   Alle: *Tandem-Programmierung* von ebuilds  
   <https://bbb.gentoo-ev.org/>
 
-- **Saturday, 2022-04-16 at 18:00 UTC (20:00 CEST)**  
-  Simon-Nassim Kanoun: *Distributed compiling with icecc* (in English)  
+- **Samstag, 2022-01-15 um 20:00 Uhr MEZ**  
+  Simon-Nassim Kanoun: *Verteiltes Kompilieren mit icecc*  
   <https://bbb.gentoo-ev.org/>
 
 Themenangebote bitte an Jonas Stein <jstein@gentoo.org> schicken.
