@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Samstag, 2022-07-16 um 20:00 MESZ**  
+  Alle: *Tipps und Tricks rund um Gentoo-Config-Dateien*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Saturday, 2022-06-18 at 18:00 UTC (20:00 CEST)**  
   All: *Pair programming of ebuilds* (in English)  
   <https://bbb.gentoo-ev.org/>
