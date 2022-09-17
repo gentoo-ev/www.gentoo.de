@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Samstag, 2022-11-19 um 20:00 MEZ**  
+  Alle: *Viele Rechner (Pool, Familien-LAN) mit Gentoo administrieren*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Samstag, 2022-09-17 um 20:00 MESZ**  
   Alle: *Tipps und Tricks rund um Gentoo-Config-Dateien*  
   <https://bbb.gentoo-ev.org/>
