@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Sebastian Pipping <sebastian@pipping.org>
 # Licensed under the MIT license
 
-FROM debian:sid-slim
+FROM debian:bullseye-slim
 
 RUN apt-get update && apt-get --yes dist-upgrade
 
