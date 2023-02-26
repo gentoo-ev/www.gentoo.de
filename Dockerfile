@@ -14,9 +14,18 @@ RUN gem install jekyll
 RUN jekyll -v
 
 # Render website
-COPY .  /root/site/
-RUN ln -s /var/www/default /root/site/_site
 WORKDIR /root/site
+COPY _includes/ _includes/
+COPY _layouts/ _layouts/
+COPY _posts/ _posts/
+COPY css/ css/
+COPY dokumentation/ dokumentation/
+COPY downloads/ downloads/
+COPY img/ img/
+COPY kontakt/ kontakt/
+COPY support/ support/
+COPY _config.yml index.html ./
+RUN ln -s /var/www/default _site
 RUN jekyll build
 
 # Serve website
