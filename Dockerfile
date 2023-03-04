@@ -1,16 +1,14 @@
 # Copyright (C) 2018 Sebastian Pipping <sebastian@pipping.org>
 # Licensed under the MIT license
 
-FROM debian:bullseye-slim
+FROM alpine:3.17
 
-RUN apt-get update && apt-get --yes dist-upgrade
+RUN echo '@edge-testing https://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories \
+        && \
+    apk add --update \
+        gatling@edge-testing \
+        jekyll
 
-RUN apt-get update && apt-get install --no-install-recommends --yes -V \
-        build-essential \
-        gatling \
-        ruby-full
-
-RUN gem install jekyll
 RUN jekyll -v
 
 # Render website
@@ -25,8 +23,7 @@ COPY img/ img/
 COPY kontakt/ kontakt/
 COPY support/ support/
 COPY _config.yml index.html ./
-RUN ln -s /var/www/default _site
-RUN jekyll build
+RUN jekyll build --destination /var/www/default --trace
 
 # Serve website
 # -F        no FTP
