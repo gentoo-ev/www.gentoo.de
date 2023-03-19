@@ -21,6 +21,3 @@ Als Termine stehen bisher fest:
   <https://bbb.gentoo-ev.org/>
 
 Themenangebote bitte an Jonas Stein <jstein@gentoo.org> schicken.
-
-Wir danken dem [CCC Cologne e.V.](https://koeln.ccc.de/) für das
-Hosting des BBB-Servers, auf den wir weiterleiten.
