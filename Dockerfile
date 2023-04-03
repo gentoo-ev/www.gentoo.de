@@ -3,8 +3,6 @@
 
 FROM debian:bullseye-slim
 
-RUN apt-get update && apt-get --yes dist-upgrade
-
 RUN apt-get update && apt-get install --no-install-recommends --yes -V \
         build-essential \
         lighttpd \
@@ -34,3 +32,7 @@ RUN mkfifo -m 600 /var/log/lighttpd/access.log
 RUN chown www-data:www-data /var/log/lighttpd/access.log
 EXPOSE 80
 CMD ["sh", "-c", "cat <> /var/log/lighttpd/access.log & lighttpd -D -f /etc/lighttpd/lighttpd.conf"]
+
+# Apply system upgrades last
+# .. to not be turned into a no-op by Docker cache most of the time
+RUN apt-get update && apt-get --yes dist-upgrade
