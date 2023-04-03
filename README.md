@@ -1,3 +1,6 @@
+[![Build](https://github.com/gentoo-ev/www.gentoo.de/actions/workflows/build.yml/badge.svg)](https://github.com/gentoo-ev/www.gentoo.de/actions/workflows/build.yml)
+
+
 # How to Build and Run (on Gentoo)
 
 ```console
