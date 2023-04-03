@@ -4,11 +4,9 @@
 FROM debian:bullseye-slim
 
 RUN apt-get update && apt-get install --no-install-recommends --yes -V \
-        build-essential \
-        lighttpd \
-        ruby-full
+        jekyll \
+        lighttpd
 
-RUN gem install jekyll
 RUN jekyll -v
 
 # Render website
