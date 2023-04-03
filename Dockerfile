@@ -7,7 +7,7 @@ RUN apt-get update && apt-get --yes dist-upgrade
 
 RUN apt-get update && apt-get install --no-install-recommends --yes -V \
         build-essential \
-        gatling \
+        lighttpd \
         ruby-full
 
 RUN gem install jekyll
@@ -25,12 +25,12 @@ COPY img/ img/
 COPY kontakt/ kontakt/
 COPY support/ support/
 COPY _config.yml index.html ./
-RUN jekyll build --destination /var/www/default --trace
+RUN jekyll build --destination /var/www/html --trace
 
-# Serve website
-# -F        no FTP
-# -S        no Samba
-# -d        enable directory listings
-# -c <DIR>  change into and serve directory <DIR>
+# Activate access log
+# https://github.com/moby/moby/issues/6880#issuecomment-344114520
+RUN ln -s ../conf-available/10-accesslog.conf /etc/lighttpd/conf-enabled/
+RUN mkfifo -m 600 /var/log/lighttpd/access.log
+RUN chown www-data:www-data /var/log/lighttpd/access.log
 EXPOSE 80
-CMD ["gatling", "-F", "-S", "-d", "-c", "/var/www/default"]
+CMD ["sh", "-c", "cat <> /var/log/lighttpd/access.log & lighttpd -D -f /etc/lighttpd/lighttpd.conf"]
