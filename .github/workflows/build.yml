@@ -1,0 +1,47 @@
+# Copyright (C) 2023 Sebastian Pipping <sebastian@pipping.org>
+# SPDX-License-Identifier: MIT
+
+name: Build
+
+# Drop permissions to minimum for security
+permissions:
+  contents: read
+
+on:
+  pull_request:
+  push:
+  schedule:
+    - cron: '0 2 * * 5'  # Every Friday at 2am
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3  # v3.5.0
+
+      - name: Install dependencies
+        run: |-
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends -V \
+              docker-compose \
+              wait-for-it
+
+      - name: Build Docker image
+        run: |-
+          docker-compose build
+
+      - name: Smoke-test Docker image
+        run: |-
+          set -x
+
+          docker network create --internal ssl-reverse-proxy
+          docker-compose up -d
+
+          wait-for-it 127.0.0.1:50280 -- \
+                wget -O- http://127.0.0.1:50280/ \
+                | grep -q gentoo.de
+
+          docker-compose down
+          docker network rm ssl-reverse-proxy
