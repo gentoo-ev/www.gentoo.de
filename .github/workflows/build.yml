@@ -41,7 +41,7 @@ jobs:
 
           wait-for-it 127.0.0.1:50280 -- \
                 wget -O- http://127.0.0.1:50280/ \
-                | grep -q gentoo.de
+                | grep -qF gentoo.de
 
           docker-compose down
           docker network rm ssl-reverse-proxy
