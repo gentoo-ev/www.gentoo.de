@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Sebastian Pipping <sebastian@pipping.org>
 # Licensed under the MIT license
 
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
 RUN apt-get update && apt-get install --no-install-recommends --yes -V \
         jekyll \
