@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Samstag, 2023-07-15 um 20:00 MESZ**  
+  Alle: *Moderne Werkzeuge zur Ebuild-Pflege*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Samstag, 2023-05-20 um 20:00 MESZ**  
   Alle: *Backup unter Gentoo*  
   <https://bbb.gentoo-ev.org/>
