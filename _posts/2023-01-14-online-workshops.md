@@ -12,7 +12,7 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
-- **Samstag, 2023-09-16 um 20:00 MESZ**  
+- **Samstag, 2023-09-23 um 20:00 MESZ**  
   Ulrich Müller: *ebuild-mode & Co.: weitere Werkzeuge zur Ebuild-Pflege*  
   <https://bbb.gentoo-ev.org/>
 
