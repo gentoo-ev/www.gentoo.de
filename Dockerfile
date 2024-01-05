@@ -15,6 +15,7 @@ COPY _includes/ _includes/
 COPY _layouts/ _layouts/
 COPY _posts/ _posts/
 COPY css/ css/
+COPY datenschutz/ datenschutz/
 COPY dokumentation/ dokumentation/
 COPY downloads/ downloads/
 COPY img/ img/
