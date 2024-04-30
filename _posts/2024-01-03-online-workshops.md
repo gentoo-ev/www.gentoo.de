@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Saturday, 2024-06-15 at 18:00 UTC (20:00 CEST)**  
+  Ferenc Erki: *Host Gentoo dependency tarballs as GitHub releases*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Samstag, 2024-03-16 vsl. um 21:00 MEZ**
   (nach der Mitgliederversammlung des Gentoo e.V.)  
   Alle: *Bugday – Wir beheben offene Bugs*  
