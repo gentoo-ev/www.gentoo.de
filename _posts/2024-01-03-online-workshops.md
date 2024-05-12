@@ -16,6 +16,10 @@ Als Termine stehen bisher fest:
   Ferenc Erki: *Host Gentoo dependency tarballs as GitHub releases*  
   <https://bbb.gentoo-ev.org/>
 
+- **Samstag, 2024-05-18 um 20:00 MESZ**  
+  Alle: *Alles über USE-Flags*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Samstag, 2024-03-16 vsl. um 21:00 MEZ**
   (nach der Mitgliederversammlung des Gentoo e.V.)  
   Alle: *Bugday – Wir beheben offene Bugs*  
