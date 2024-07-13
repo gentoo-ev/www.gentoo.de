@@ -12,6 +12,11 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Samstag, 2024-07-20 um 20:00 MESZ**  
+  Ulrich Müller: *Leere Pakete &#x2013; Wie funktionieren Virtuals,
+  Alternatives und Metapakete in Gentoo?*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Saturday, 2024-06-15 at 18:00 UTC (20:00 CEST)**  
   Ferenc Erki: *Host Gentoo dependency tarballs as GitHub releases*  
   <https://bbb.gentoo-ev.org/>
