@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Saturday, 2024-10-19 at 18:00 UTC (20:00 CEST)**  
+  David Sardari: *Beyond Secure Boot &#x2013; Measured Boot on Gentoo Linux?*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Samstag, 2024-07-20 um 20:00 MESZ**  
   Ulrich Müller: *Leere Pakete &#x2013; Wie funktionieren Virtuals,
   Alternatives und Metapakete in Gentoo?*  
