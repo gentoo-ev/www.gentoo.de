@@ -12,7 +12,7 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
-- **Samstag, 2025-05-17 um 20:00 MESZ**  
+- **Samstag, 2025-05-10 um 20:00 MESZ (Achtung, Datumsänderung!)**  
   Ulrich Müller: *EAPI 9*  
   Was ändert sich für Variablen, Pipelines, Versionen u. a. m.?  
   <https://bbb.gentoo-ev.org/>
