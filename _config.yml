@@ -4,6 +4,9 @@ title: gentoo.de
 # Build settings
 markdown: kramdown
 
+include:
+  - .well-known
+
 defaults:
   -
     scope:
