@@ -21,6 +21,7 @@ COPY downloads/ downloads/
 COPY img/ img/
 COPY kontakt/ kontakt/
 COPY support/ support/
+COPY well-known/ .well-known/
 COPY _config.yml index.html ./
 RUN jekyll build --destination /var/www/html --trace
 
