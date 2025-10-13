@@ -12,6 +12,10 @@ Die Teilnahme ist kostenlos und auch für Nicht-Vereinsmitglieder offen.
 
 Als Termine stehen bisher fest:
 
+- **Saturday, 2025-10-25 at 18:00 UTC (20:00 CEST)**  
+  David Sardari: *Idea of secure 3rd party overlay use*  
+  <https://bbb.gentoo-ev.org/>
+
 - **Saturday, 2025-06-14 at 18:00 UTC (20:00 CEST)**  
   David Sardari: *Discussion on LibrePGP and GnuPG*  
   <https://bbb.gentoo-ev.org/>
